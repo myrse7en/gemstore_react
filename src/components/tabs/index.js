@@ -29,9 +29,9 @@ class PanelTabs extends Component {
               </Tab>
             </ul>
           </TabList>
-          <TabPanel></TabPanel>
-          <TabPanel></TabPanel>
-          <TabPanel></TabPanel>
+          <TabPanel><Description description={this.props.info.description} /></TabPanel>
+          <TabPanel><Reviews reviews={this.props.info.reviews} /></TabPanel>
+          <TabPanel><Specs /></TabPanel>
         </Tabs>
       </div>
     );

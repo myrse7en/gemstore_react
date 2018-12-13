@@ -14,7 +14,7 @@ class ProductItem extends Component {
           <div className="card-subtitle">${this.props.info.price}</div>
           <button className="btn btn-primary">Add to Cart</button>
           {/* add tabs here */}
-          <PanelTabs />
+          <PanelTabs info={this.props.info} />
         </div>
       </div>
     );

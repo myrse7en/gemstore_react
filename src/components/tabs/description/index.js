@@ -5,7 +5,7 @@ class Description extends Component {
   render() {
     return (
       <div className="Description">
-        <h1>D tab</h1>
+        <p>{this.props.description}</p>
       </div>
     );
   }
